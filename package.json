@@ -29,8 +29,7 @@
   "main": "./callback.js",
   "scripts": {
     "test": "node test/index.js",
-    "repl": "node node_modules/repl-utils",
-    "postinstall": "npm dedup"
+    "repl": "node node_modules/repl-utils"
   },
   "licenses": [
     {
@@ -39,9 +38,7 @@
     }
   ],
   "dependencies": {
-    "functional": "~1.0.0"
-  },
-  "peerDependencies": {
-    "reducible": "~1.0.5"
+    "functional": "~1.0.0",
+    "reducible": "Raynos/reducible#v1.0.6"
   }
 }
